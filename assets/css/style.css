@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+
+body{
+    border: none;
+    margin: 0;
+    font-family: 'Protest Strike', sans-serif;
+    background: linear-gradient(to top, hsl(272, 57%, 25%), #090d18);
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(47, 123, 255);
+    text-shadow: 0 5px 3px #1f315f;
+}
+
+
+.right-login{
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to top, hsl(269, 45%, 35%), #375094);
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px #161f37;
+}
+
+.card-login{
+    width: 60%;
+    height: 30%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 30px 35px;
+    outline: none;
+}
+
+.right-login h1{
+    font-size: 1.9rem;
+    font-weight: 400;
+}
+
+.card-login label{
+    margin-bottom: 10px;
+}
+
+.img-login{
+    width: 35vw
+}
+
+.left-login{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inplogin{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+
+
+.inplogin::placeholder{
+    color: rgb(66, 48, 65);
+    font-family: 'Protest Strike', sans-serif;
+}
+
+#btnlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 10%;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(47, 123, 255);
+    font-family: 'Protest Strike', sans-serif;
+    text-shadow: rgb(47, 123, 255);
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    box-shadow: 0 10px 40px -12px #7e92c6;
+}
+
+@media only screen and (max-width:950px){
+    .card-login{
+        width: 85%;
+    }
+}
